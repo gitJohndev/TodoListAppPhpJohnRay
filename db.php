@@ -18,7 +18,6 @@ if(!mysqli_query($conn, $sql)){
 
 $conn->select_db($dbname);
 
-//create Table
 $sql = "CREATE TABLE  IF NOT EXISTS `tasks` (
   `id` int(11) NOT NULL AUTO_INCREMENT,
   `task` varchar(255) NOT NULL,
