@@ -180,7 +180,7 @@
 </head>
 <body>
     <div class="todo-container">
-        <h1>To-Do List</h1>
+        <h1>To-Do List App</h1>
 
         <!-- Form to add a new task -->
         <form class="input-section" action="add_task.php" method="POST">
